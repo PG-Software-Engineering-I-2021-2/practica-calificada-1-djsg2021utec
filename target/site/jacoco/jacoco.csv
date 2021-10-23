@@ -1,0 +1,5 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+lab01-recordando-poo-djsg2021utec,cs.ing.software.lab1,Camion,0,81,0,4,0,13,0,5,0,3
+lab01-recordando-poo-djsg2021utec,cs.ing.software.lab1,Labo1,29,38,0,0,7,10,1,4,1,4
+lab01-recordando-poo-djsg2021utec,cs.ing.software.lab1,Vehiculo,0,55,0,2,0,11,0,3,0,2
+lab01-recordando-poo-djsg2021utec,cs.ing.software.lab1,Automovil,0,37,0,2,0,7,0,3,0,2
