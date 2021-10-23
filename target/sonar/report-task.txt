@@ -1,7 +1,0 @@
-organization=pg-software-engineering-i-2021-2
-projectKey=org.example:lab01-recordando-poo-djsg2021utec
-serverUrl=https://sonarcloud.io
-serverVersion=8.0.0.24170
-dashboardUrl=https://sonarcloud.io/dashboard?id=org.example%3Alab01-recordando-poo-djsg2021utec
-ceTaskId=AXyvJHWylhuz48g5Vqol
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXyvJHWylhuz48g5Vqol
