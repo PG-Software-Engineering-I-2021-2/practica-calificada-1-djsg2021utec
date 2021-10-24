@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="59" failures="0" name="lab1.Labo1Test" time="0.039" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="lab1.Labo1Test" time="0.007" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="16.0.2+7-67"/>
@@ -59,63 +59,6 @@
     <property name="sun.stdout.encoding" value="cp850"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="lab1.Labo1Test" name="Test01" time="0.02"/>
+  <testcase classname="lab1.Labo1Test" name="Test01" time="0.007"/>
   <testcase classname="lab1.Labo1Test" name="Test02" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test03" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test05" time="0.001"/>
-  <testcase classname="lab1.Labo1Test" name="Test06" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test07" time="0.001"/>
-  <testcase classname="lab1.Labo1Test" name="Test08" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test09" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test10" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test12" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test13" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test14" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test15" time="0.001"/>
-  <testcase classname="lab1.Labo1Test" name="Test16" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test17" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test18" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test19" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test20" time="0.001"/>
-  <testcase classname="lab1.Labo1Test" name="Test21" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test22" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test23" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test24" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test25" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test26" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test27" time="0.001"/>
-  <testcase classname="lab1.Labo1Test" name="Test28" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test29" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test30" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test31" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test32" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test33" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test34" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test35" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test36" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test37" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test38" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test39" time="0.001"/>
-  <testcase classname="lab1.Labo1Test" name="Test40" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test41" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test42" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test43" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test44" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test45" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test46" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test47" time="0.001"/>
-  <testcase classname="lab1.Labo1Test" name="Test48" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test49" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test50" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test51" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test52" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test53" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test54" time="0.001"/>
-  <testcase classname="lab1.Labo1Test" name="Test55" time="0.009"/>
-  <testcase classname="lab1.Labo1Test" name="Test56" time="0.001"/>
-  <testcase classname="lab1.Labo1Test" name="Test57" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test58" time="0.001"/>
-  <testcase classname="lab1.Labo1Test" name="Test59" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test60" time="0"/>
-  <testcase classname="lab1.Labo1Test" name="Test61" time="0"/>
 </testsuite>
