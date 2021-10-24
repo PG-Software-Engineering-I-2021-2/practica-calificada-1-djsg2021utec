@@ -3,6 +3,7 @@ import java.util.logging.Logger;
 
 
 public class Labo1 {
+
     static final Logger logger = Logger.getLogger(Labo1.class.getName());
     static double consumoVehiculo = 0.9;
     static double consumoCamion = 1.6;
@@ -18,8 +19,9 @@ public class Labo1 {
     }
 
     public static void main(String[ ] args) {
+        System.out.println("Hola soy el agente virtual Oliver tenemos los mejores libros, ¿me podrías indicar el nombre del libro o el autor?");
 
-//Auto 1
+//Respuesta 1
         Automovil auto1 = new Automovil(fuelCantidad,consumoVehiculo,capacidadTotal);
         String r1 = auto1.conduccion(4);
         logger.info(r1);

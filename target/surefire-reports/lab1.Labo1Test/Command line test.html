@@ -1,0 +1,374 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>59/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Oct 23 17:53:08 PET 2021</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (117 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='lab1.Labo1Test.Test01()'><b>Test01</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test02()'><b>Test02</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test03()'><b>Test03</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test05()'><b>Test05</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test06()'><b>Test06</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test07()'><b>Test07</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test08()'><b>Test08</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test09()'><b>Test09</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test10()'><b>Test10</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test12()'><b>Test12</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test13()'><b>Test13</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test14()'><b>Test14</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test15()'><b>Test15</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test16()'><b>Test16</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test17()'><b>Test17</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test18()'><b>Test18</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test19()'><b>Test19</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test20()'><b>Test20</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test21()'><b>Test21</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test22()'><b>Test22</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test23()'><b>Test23</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test24()'><b>Test24</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test25()'><b>Test25</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test26()'><b>Test26</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test27()'><b>Test27</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test28()'><b>Test28</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test29()'><b>Test29</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test30()'><b>Test30</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test31()'><b>Test31</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test32()'><b>Test32</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test33()'><b>Test33</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test34()'><b>Test34</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test35()'><b>Test35</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test36()'><b>Test36</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test37()'><b>Test37</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test38()'><b>Test38</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test39()'><b>Test39</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test40()'><b>Test40</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test41()'><b>Test41</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test42()'><b>Test42</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test43()'><b>Test43</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test44()'><b>Test44</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test45()'><b>Test45</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test46()'><b>Test46</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test47()'><b>Test47</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test48()'><b>Test48</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test49()'><b>Test49</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test50()'><b>Test50</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test51()'><b>Test51</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test52()'><b>Test52</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test53()'><b>Test53</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test54()'><b>Test54</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test55()'><b>Test55</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test56()'><b>Test56</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test57()'><b>Test57</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test58()'><b>Test58</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test59()'><b>Test59</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test60()'><b>Test60</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+<tr>
+<td title='lab1.Labo1Test.Test61()'><b>Test61</b><br>Test class: lab1.Labo1Test</td>
+<td></td>
+<td>0</td>
+<td>lab1.Labo1Test@2e32ccc5</td></tr>
+</table><p>
+</body>
+</html>
