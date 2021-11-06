@@ -42,27 +42,27 @@ public class LibrosAdmin {
         titulos.add(libro9.Titulo());
         titulos.add(libro10.Titulo());
         autores = new ArrayList();
-        autores.add(libro1.Titulo());
-        autores.add(libro2.Titulo());
-        autores.add(libro3.Titulo());
-        autores.add(libro4.Titulo());
-        autores.add(libro5.Titulo());
-        autores.add(libro6.Titulo());
-        autores.add(libro7.Titulo());
-        autores.add(libro8.Titulo());
-        autores.add(libro9.Titulo());
-        autores.add(libro10.Titulo());
+        autores.add(libro1.Autor());
+        autores.add(libro2.Autor());
+        autores.add(libro3.Autor());
+        autores.add(libro4.Autor());
+        autores.add(libro5.Autor());
+        autores.add(libro6.Autor());
+        autores.add(libro7.Autor());
+        autores.add(libro8.Autor());
+        autores.add(libro9.Autor());
+        autores.add(libro10.Autor());
         ediciones = new ArrayList();
-        ediciones.add(libro1.Titulo());
-        ediciones.add(libro2.Titulo());
-        ediciones.add(libro3.Titulo());
-        ediciones.add(libro4.Titulo());
-        ediciones.add(libro5.Titulo());
-        ediciones.add(libro6.Titulo());
-        ediciones.add(libro7.Titulo());
-        ediciones.add(libro8.Titulo());
-        ediciones.add(libro9.Titulo());
-        ediciones.add(libro10.Titulo());
+        ediciones.add(libro1.Edicion());
+        ediciones.add(libro2.Edicion());
+        ediciones.add(libro3.Edicion());
+        ediciones.add(libro4.Edicion());
+        ediciones.add(libro5.Edicion());
+        ediciones.add(libro6.Edicion());
+        ediciones.add(libro7.Edicion());
+        ediciones.add(libro8.Edicion());
+        ediciones.add(libro9.Edicion());
+        ediciones.add(libro10.Edicion());
     }
     public Integer contarLibros(String titulo,String autor){
         Integer cont = 0;
@@ -89,45 +89,24 @@ public class LibrosAdmin {
     }
     public String buscarLibro(String titulo,String autor){
         String response = "";
-        if (titulo.equals(libro1.Titulo()) && autor.equals(libro1.Autor())){
-            response = response + libro1.Edicion()+"; ";
-        }
-        if (titulo.equals(libro2.Titulo()) && autor.equals(libro2.Autor())){
-            response = response + libro2.Edicion()+"; ";
-        }
-        if (titulo.equals(libro3.Titulo()) && autor.equals(libro3.Autor())){
-            response = response + libro3.Edicion()+"; ";
-        }
-        if (titulo.equals(libro4.Titulo()) && autor.equals(libro4.Autor())){
-            response = response + libro4.Edicion()+"; ";
+        for (int i=0; i<titulos.size();i++){
+            if(titulo.equals(titulos.get(i)) && autor.equals(autores.get(i))){
+                response = response + ediciones.get(i)+"; ";
+            }
         }
         return  response;
     }
     public String buscarLibro(String referencia){
         String response = "";
-        if (referencia.equals(libro1.Titulo())){
-            response = response + libro1.Autor() +" " + libro1.Edicion()+"; ";
+        for (int i=0; i<titulos.size();i++){
+            if(referencia.equals(titulos.get(i))){
+                response = response + autores.get(i) +" " + ediciones.get(i)+"; ";
+            }
         }
-        if (referencia.equals(libro2.Titulo())){
-            response = response + libro2.Autor() +" " + libro4.Edicion()+"; ";
-        }
-        if (referencia.equals(libro3.Titulo())){
-            response = response + libro3.Autor() +" " + libro4.Edicion()+"; ";
-        }
-        if (referencia.equals(libro4.Titulo())){
-            response = response + libro4.Autor() +" " + libro4.Edicion()+"; ";
-        }
-        if (referencia.equals(libro1.Autor())){
-            response = response + libro1.Titulo() +" " + libro1.Edicion()+"; ";
-        }
-        if (referencia.equals(libro2.Autor())){
-            response = response + libro2.Titulo() +" " + libro2.Edicion()+"; ";
-        }
-        if (referencia.equals(libro3.Autor())){
-            response = response + libro3.Titulo() +" " + libro3.Edicion()+"; ";
-        }
-        if (referencia.equals(libro4.Autor())){
-            response = response + libro4.Titulo() +" " + libro4.Edicion()+"; ";
+        for (int i=0; i<titulos.size();i++){
+            if(referencia.equals(autores.get(i))){
+                response = response + titulos.get(i) +" " + ediciones.get(i)+"; ";
+            }
         }
         return  response;
     }

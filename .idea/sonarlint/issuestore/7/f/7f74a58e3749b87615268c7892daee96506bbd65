@@ -1,23 +1,0 @@
-
-O
-java:S1854"9Remove this useless assignment to local variable "bool1".(¥ÓœÆ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Ç§Üÿÿÿÿÿ
-Q	java:S125"<This block of commented-out lines of code should be removed.(¦æîö
-S	java:S106"9Replace this use of System.out or System.err by a logger.(è¡´üÿÿÿÿ
-@
-java:S1481"*Remove this unused "bool1" local variable.(¥ÓœÆ
-V	java:S125"<This block of commented-out lines of code should be removed.(ƒ‘¦ÿÿÿÿÿ
-S	java:S106 "9Replace this use of System.out or System.err by a logger.(è¡´üÿÿÿÿ
-Z	java:S106$"9Replace this use of System.out or System.err by a logger.(àİŞÓüÿÿÿÿ8©¶øŸÏ/
-Z	java:S106&"9Replace this use of System.out or System.err by a logger.(İõÀöøÿÿÿÿ8ÏÏÔ Ï/
-Z	java:S106("9Replace this use of System.out or System.err by a logger.(º¾ğ”øÿÿÿÿ8¶Ğë Ï/
-Z	java:S106*"9Replace this use of System.out or System.err by a logger.(¢ŞĞ˜ÿÿÿÿÿ8ı’ø Ï/
-Z	java:S106,"9Replace this use of System.out or System.err by a logger.(µ¢ŒÉøÿÿÿÿ8š–œ¡Ï/
-V	java:S125."<This block of commented-out lines of code should be removed.(´œ²–ıÿÿÿÿ
-Q	java:S1253"<This block of commented-out lines of code should be removed.(Ô·
-n
-java:S1192#"LDefine a constant instead of duplicating this literal "Sommerville" 3 times.(èæÌ¤üÿÿÿÿ8›–œ¡Ï/
-R
-java:S4973"<Strings and Boxed types should be compared using "equals()".(¥ÓœÆ
-Y
-java:S4973+"<Strings and Boxed types should be compared using "equals()".(¿ŸÍì8ïìø Ï/
