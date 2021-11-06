@@ -1,9 +1,9 @@
-package lab1;
+package practica.calificada;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Labo1Test {
+public class FacadeOliverBotTest {
     @Test
     public void Test01(){
 

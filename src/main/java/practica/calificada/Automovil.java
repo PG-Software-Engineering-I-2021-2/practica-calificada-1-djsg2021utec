@@ -1,4 +1,4 @@
-package lab1;
+package practica.calificada;
 
 
 public class Automovil extends Vehiculo{

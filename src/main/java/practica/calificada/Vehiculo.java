@@ -1,4 +1,4 @@
-package lab1;
+package practica.calificada;
 import java.text.DecimalFormat;
 
 public class Vehiculo {
