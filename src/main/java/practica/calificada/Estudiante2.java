@@ -1,9 +1,9 @@
 package practica.calificada;
 
 public class Estudiante2 implements Estudiante{
-    String nombre = "Marco Sanchez";
-    String correo = "marco.sanchez@gmail.com";
-    Integer celular = 947593221;
+    String nombre = "Pamela Franco";
+    String correo = "pamela.franco@gmail.com";
+    Integer celular = 942983220;
     @Override
     public String Nombre() {
         return nombre;

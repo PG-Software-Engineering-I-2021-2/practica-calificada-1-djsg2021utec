@@ -29,8 +29,19 @@ public class FacadeOliverBot {
         boolean bool1 = (str1 == "La biblia");
         //System.out.print(bool1+"\n");
         if ("La biblia".equals( str1 )){
-            System.out.print("You have entered: "+str1);
+            System.out.print("You have entered: "+str1+"\n");
         }
+        LibrosAdmin nuevo = new LibrosAdmin();
+        String respuesta1 = nuevo.buscarLibro("Sofware Engineering","Sommerville" );
+        System.out.print(respuesta1+"\n");
+        String respuesta2 = nuevo.buscarLibro("Sofware Engineering");
+        System.out.print(respuesta2+"\n");
+        Integer respuesta4 = nuevo.contarLibros("Sommerville");
+        System.out.print(respuesta4+"\n");
+        String respuesta3 = nuevo.buscarLibro("Sommerville");
+        System.out.print(respuesta3+"\n");
+        boolean bool2 = ("Hola" != "");
+        System.out.print(bool2);
 //Respuesta 1
      //   Automovil auto1 = new Automovil(fuelCantidad,consumoVehiculo,capacidadTotal);
         //   String r1 = auto1.conduccion(4);
